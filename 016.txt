@@ -38,3 +38,6 @@ public class YootkDemo {
 		System.out.println(age);	//输出age变量内容,
 	}
 }
+
+
+8888888888888888888888888888888888
