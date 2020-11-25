@@ -1,0 +1,40 @@
+1、
+public class YootkDemo {
+	public static void main(String yootk[]) {
+		// 10是一个数字，既然已经定义好了10，那么就意味着这个内容无法修改了
+		System.out.println(10);	//常量
+	}
+}
+
+2、
+public class YootkDemo {
+	public static void main(String yootk[]) {
+		// 所有的程序语言最后一定要使用“;”进行结尾（Java的严格要求）
+		int age = 18 ;			//定义一个整型变量并设置默认值
+		System.out.println(age);	//输出变量内容
+		//修改变量内容
+		age = 19 ;		// 将新的内容赋予给age变量
+		System.out.println(age);	//输出变量内容
+	}
+}
+
+3、
+public class YootkDemo {
+	public static void main(String yootk[]) {
+		int current = 38; //定义一个新的变量current
+		// 所有的程序语言最后一定要使用“;”进行结尾（Java的严格要求）
+		int age = 18 ;			//定义一个整型变量并设置默认值
+		System.out.println(age);	//输出变量内容
+		//修改变量内容
+		age = current ;		// 将current变量的内容赋予给age变量
+		System.out.println(age);	//输出变量内容
+	}
+}
+
+4、
+public class YootkDemo {
+		static  int age ;	//如果没有定义具体的内容，则内容的默认值“0”来表示
+		public static void main(String yooty[]) {
+		System.out.println(age);	//输出age变量内容,
+	}
+}
