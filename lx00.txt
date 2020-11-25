@@ -1,0 +1,10 @@
+public class YootkDemo {
+	public static void main(String yootk[]) {
+		// 所有的程序语言最后一定要使用“;”进行结尾（Java的严格要求）
+		int age = 18 ;			//定义一个整型变量并设置默认值
+		System.out.println(age);	//输出变量内容
+		//修改变量内容
+		age = 19 ;		// 将新的内容赋予给age变量
+		System.out.println(age);	//输出变量内容
+	}
+}
